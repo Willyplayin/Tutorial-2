@@ -11,7 +11,6 @@ ScriptsOnlyBuild:
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
@@ -58,19 +57,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 622}
     - Class: 114
-      Script: {instanceID: 2202}
+      Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2204}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 2992}
+      Script: {instanceID: 2778}
     - Class: 114
-      Script: {instanceID: 3236}
+      Script: {instanceID: 2994}
     - Class: 114
-      Script: {instanceID: 21036}
+      Script: {instanceID: 3238}
     - Class: 114
-      Script: {instanceID: 23112}
+      Script: {instanceID: 5598}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -182,6 +181,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ba8885765ad8fe055d2176fbae6efcd9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerScript
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -616,12 +621,6 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerScript
-  - hash:
-      serializedVersion: 2
       Hash: 66bca5cc6a18c5298ec75235e56a84d6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -629,5 +628,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/willb/Desktop/Computer as a Medium/Tutorial 2/Tutorial 2 Build/Tutorial
+  playerPath: C:/Users/willb/Desktop/Computer as a Medium/Tutorial 2/Burke_William_DIG3480_Tutorial2/Tutorial
     2.exe
