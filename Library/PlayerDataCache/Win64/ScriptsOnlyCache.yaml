@@ -12,7 +12,6 @@ ScriptsOnlyBuild:
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
@@ -25,10 +24,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -91,9 +88,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3238}
     - Class: 114
-      Script: {instanceID: 5598}
+      Script: {instanceID: 4578}
     - Class: 114
-      Script: {instanceID: 26530}
+      Script: {instanceID: 5600}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -549,6 +546,12 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyScript
+  - hash:
+      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -649,14 +652,8 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraScript
-  - hash:
-      serializedVersion: 2
-      Hash: e08dc097b830ae769e9cdd9b04e903ac
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemyScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/willb/Desktop/Computer as a Medium/Tutorial 2 Challenge/Build/Tutorial
+  playerPath: C:/Users/willb/Desktop/Computer as a Medium/Tutorial 2 Challenge/Burke_William_DIG3480_Challenge2/Tutorial
     2.exe

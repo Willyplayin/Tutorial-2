@@ -56,11 +56,6 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("escape"))
-        {
-            Application.Quit();
-        }
-
         if (Input.GetKey(KeyCode.A) && isOnGround && !Input.GetKey(KeyCode.W))
         {
             anim.SetInteger("State", 1);
